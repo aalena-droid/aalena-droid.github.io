@@ -1,0 +1,43 @@
+body {
+background-color: lightblue;
+font-family: Arial;
+margin: 30px;
+}
+
+h1 {
+color: darkblue;
+animation: anim 2s;
+}
+
+h2 {
+color: blue;
+}
+
+a {
+color: darkblue;
+margin-right: 15px;
+}
+
+p {
+font-size: 18px;
+}
+
+pre {
+background-color: white;
+padding: 15px;
+border: 1px solid blue;
+}
+
+img {
+margin: 10px;
+}
+
+@keyframes anim {
+from {
+opacity: 0;
+}
+
+to {
+opacity: 1;
+}
+}
